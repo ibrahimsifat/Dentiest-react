@@ -1,0 +1,57 @@
+[{
+        "id": 1,
+        "title": "Teeth Cleaning",
+        "img": "https://i.ibb.co/m0tZJx2/Clening.jpg",
+        "description": "Professional teeth cleanings are scheduled twice a year, while X-rays are normally done once a year. Still, depending on what your dentist or dental hygienist observes in your mouth, they might do other exams during your visit. For children, a dentist may recommend molar sealants to help prevent cavities in hard-to-brush areas.Whether you need any additional steps or not, the key is to keep going back to the dentist for regular teeth cleanings to prevent problems altogether",
+        "price": 433
+    },
+    {
+        "id": 2,
+        "title": "Teeth Whitning",
+        "img": "https://i.ibb.co/V2fz8VP/whitning.jpg",
+        "description": "Teeth whitening is a form of dentistry and should only be carried out by a dentist or another regulated dental professional, such as a dental hygienist or dental therapist, on the prescription of a dentist. Some beauty salons offer teeth whitening, but this is illegal if there is no dental professional present, and it may put your oral health at risk. You can also buy DIY home teeth whitening kits but these may also carry risks.",
+        "price": 344
+    },
+    {
+        "id": 3,
+        "title": "Radiographs",
+        "img": "https://i.ibb.co/zNtRbTC/Braces.jpg",
+        "description": "In the list of your favorite things, getting an X-ray at the dentist office may not rank high. Wearing that heavy apron and holding a sometimes uncomfortable device between your teeth for even a few seconds is not much fun.But X-rays show dental providers a lot. X-rays help them see the condition of your teeth, roots, jaw placement and facial bone composition. They also help them find and treat dental problems early in their development.X-rays are a form of energy that can travel through or be absorbed by solid objects. This energy is absorbed by dense objects",
+        "price": 263
+    },
+    {
+        "id": 4,
+        "title": "Mouthguards",
+        "img": "https://i.ibb.co/RCzXRNq/guards.jpg",
+        "description": "Mouthguards are worn over the top row of teeth during sports to help prevent an oral injury. They protect against broken teeth, cut lips, and other damage to the mouth. If your athlete wears braces or has fixed dental appliances (such as a bridge) on the lower jaw, the dentist may suggest a mouthguard for these teeth as well. Mouthguards are an essential piece of athletic equipment for anyone participating in a sport that involves falls, body contact, or flying equipment. This advice is true for team sports such as football, basketball, baseball, soccer, and hockey. A mouthguard is also needed if you kid is into skateboarding, gymnastics, mountain biking, or basically any physical activity that might result in an injury to the mouth.",
+        "price": 123
+    },
+    {
+        "id": 5,
+        "title": "Dentures",
+        "img": "https://i.ibb.co/PG6tZQh/Dentures.jpg",
+        "description": "Dentures are replacements for missing teeth that can be taken out and put back into your mouth. ... There are two main types of dentures: full and partial. Your dentist will help you choose the type of denture thats best for you based on whether some or all of your teeth are going to be replaced and the cost involved.",
+        "price": 123
+    },
+    {
+        "id": 6,
+        "title": "veneer",
+        "img": "https://i.ibb.co/8bngzTK/Veneers.jpg",
+        "description": " A veneer is a layer of material placed over a tooth, veneers improve the aesthetics of a smile or and protect the tooths surface from damage. There are two main types of material used to fabricate a veneer: composite and dental porcelain. A composite veneer may be directly placed built-up in the mouth or indirectly fabricated by a dental technician in a dental lab a such as ",
+        "price": 232
+    },
+    {
+        "id": 7,
+        "title": "fluoridation",
+        "img": "https://i.ibb.co/FD9tQST/Fluridation.jpg",
+        "description": "fluoridation is the controlled addition of fluoride to water supply to reduce tooth decay. Fluoridated water contains fluoride at a level that is effective for preventing cavities.Fluoridated water operates on tooth surfaces: in the mouth, it creates low levels of fluoride in saliva, which reduces the rate at which tooth enamel demineralizes and increases the rate at which it remineralizes in the early stages of cavities",
+        "price": 223
+    },
+    {
+        "id": 8,
+        "title": "root canal treatment",
+        "img": "https://i.ibb.co/R2S4CSk/Root-Canal.jpg",
+        "description": "A root canal is a treatment to repair and save a badly damaged or infected tooth. The procedure involves removing the damaged area of the tooth (the pulp), cleaning and disinfecting it and then filling and sealing it. The common causes affecting the pulp are a cracked tooth, a deep cavity, repeated dental treatment to the tooth or trauma. The term root canal comes from cleaning of the canals inside the tooth's root.",
+        "price": 335
+    }
+]
