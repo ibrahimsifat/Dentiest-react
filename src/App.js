@@ -13,6 +13,7 @@ import Footer from '../src/component/Shared/Footer'
 import AllProductsDetails from './component/AllProducts/AllProductsDetails';
 import AuthProvider from './component/context/AuthProvider';
 import PrivateRoute from './component/PrivateRoute/PrivateRoute';
+import NotFound from './component/NotFound/NotFound';
 function App() {
   return (
  <AuthProvider>
@@ -52,6 +53,9 @@ function App() {
   </Route>
   <Route path='/products'>
     <AllProduct></AllProduct>
+  </Route>
+  <Route path='*'>
+    <NotFound></NotFound>
   </Route>
 </Switch>
 <Footer></Footer>
