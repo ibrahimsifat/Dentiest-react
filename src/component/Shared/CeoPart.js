@@ -16,7 +16,7 @@ const CeoPart = () => {
         <p className='ml-3 text-gray-600  text-md '>Ceo & Co-Founder of Dentist</p>
        </div>
       </div>
-      <h3 class=" ml-3 text-4xl my-8 font-semibold">
+      <h3 class=" ml-3 text-2xl md:text-4xl my-8 font-semibold">
       We are proud to have the opportunity to give you the <span className='font-bold text-green-400'>smile of your dreams.</span>
 </h3>
     

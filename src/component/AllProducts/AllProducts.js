@@ -12,7 +12,7 @@ history.push(url)
 }
 
     return (
-        <div className='container my-16 grid grid-cols-3 mx-auto'>
+        <div className='container lg:grid-cols-3 my-16 grid md:grid-cols-2 mx-auto'>
         {
         products.map(product=><DisplayAllProducts
             key={product.id}

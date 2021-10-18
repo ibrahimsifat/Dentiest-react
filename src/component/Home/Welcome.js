@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import Logo from "../../img/logo.png";
 import welcomeImg from "../../img/Welcome.jpg";
 const Welcome = () => {
@@ -19,7 +20,7 @@ const Welcome = () => {
       </p>
     
         
-        <button class=" mt-5 p-1 px-3 bg-transparent border-2 border-green-400 text-green-400 text-lg rounded-lg transition-colors duration-500 transform hover:bg-green-400 hover:text-white focus:border-4 focus:border-green-300">Know More</button>
+        <NavLink to='/aboutus' class=" inline-block mt-5 p-1 px-3 bg-transparent border-2 border-green-400 text-green-400 text-lg rounded-lg transition-colors duration-500 transform hover:bg-green-400 hover:text-white focus:border-4 focus:border-green-300">Know More</NavLink>
     
 
 

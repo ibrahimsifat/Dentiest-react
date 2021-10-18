@@ -22,11 +22,11 @@ const handleServicesBtn=(id)=>{
         <div class="container px-5 pt-16 mx-auto max-w-7x1">
           <div class="flex flex-wrap w-full mb-4 p-4">
             <div class="w-full mb-6 lg:mb-0">
-              <h1 class="sm:text-4xl text-5xl font-medium font-bold title-font mb-2 text-gray-900">Our Services</h1>
-              <div class="h-1 w-44 bg-green-400 rounded"></div>
+              <h1 class="ml-5 md:ml-0 text-2xl md:text-5xl font-bold mb-2 text-gray-900">Our Services</h1>
+              <div class="ml-5 md:ml-0 h-1 md:w-60 w-28 bg-green-400 rounded"></div>
             </div>
           </div>
-         <div className="grid grid-cols-3 gap-8 md:mx-10">
+         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 md:mx-10">
          {
                 services.map(service=><DisplayServices
                 service={service}

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { NavLink,useLocation,useHistory } from 'react-router-dom';
 import Img from "../../img/login.jpg";
 import useAuth from '../../Hook/useAuth';
@@ -8,10 +8,10 @@ import Githubicon from '../../img/github.png'
 const Login = () => {
 	const {signInUsingGoolge,
 		signInUsingGithub,
-		user,
+	
 		error,
 		setError,
-		setUser,
+		
 		handelUserPassword,
 		handleUserEmail,
 		login}=useAuth()
@@ -44,8 +44,6 @@ const githubHandeLogin=()=>{
 const HandeLogin=()=>{
 	login()
 	.then((userCredential) => {
-		// Signed in 
-		const user = userCredential.user;
 		history.push(redirect_rui)
 		setError('')
 	  })
