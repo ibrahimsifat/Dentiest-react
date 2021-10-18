@@ -1,17 +1,20 @@
-import React, { useEffect, useState } from 'react';
+import { useHistory } from 'react-router';
+import useServicesProduct from '../../Hooks/useServicesProduct';
 import DisplayServices from './DisplayServices';
 
-
 const UseServises = () => {
-const [services,setServices]=useState([])
-    useEffect(()=>{
-        const url='../Fakedb.json'
-        fetch(url)
-        .then(res =>res.json())
-        .then(data=>setServices(data))
+  let history=useHistory()
+  const [services]=useServicesProduct()
 
-    },[])
-console.log(services);
+
+
+
+const handleServicesBtn=(id)=>{
+  history.push(`/servicedetails/${id}`)
+ 
+}
+
+// console.log(services);
     return (
 
 
@@ -27,6 +30,7 @@ console.log(services);
          {
                 services.map(service=><DisplayServices
                 service={service}
+                handleServicesBtn={handleServicesBtn}
                 ></DisplayServices>)
             }
          </div>

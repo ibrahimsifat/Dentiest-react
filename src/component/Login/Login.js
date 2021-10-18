@@ -1,16 +1,19 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-
-
+import Img from "../../img/login.jpg";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+import Googleicon from '../../img/google.png'
 const Login = () => {
+	const element = <FontAwesomeIcon icon={faCoffee} />
 
 
 
     return (
         <div>
           <div class=" container mx-auto my-32 mx-auto grid md:grid-cols-2  justify-center items-center">
-		<div className='ml-auto'>
-<img  className='px-4' src={'LoginBanner'} alt="" />
+		<div className='ml-auto mb-6'>
+<img  className='px-4' src={Img} alt="" />
 		</div>
 	<div class="md:ml-12 ">
 		<div class="bg-white flex justify-center items-center">
@@ -18,7 +21,7 @@ const Login = () => {
 				<div>
 					<div>
 						<span class="text-sm text-gray-900">Welcome back</span>
-						<h1 class="text-2xl font-bold">Login to your account</h1>
+						<h1 class="text-2xl font-bold">Login to your account {element}</h1>
 					</div>
 						<div class="my-3">
 							<label class="block text-md mb-2" for="email">Email</label>
@@ -33,16 +36,12 @@ const Login = () => {
 		class="mt-4 mb-3 w-full bg-green-500 hover:bg-green-400 text-white py-2 rounded-md transition duration-100">Login now</button>
 							
 				</div>
-				<div
-								
-								class="flex  space-x-2 justify-center items-end bg-gray-700 hover:bg-gray-600 text-white py-2 rounded-md transition duration-100">
+				<p className=' text-xl text-green-400 text-center'>-- or --</p>
+				<div className='mt-4'>
+					 <img className='w-12' src={Googleicon} alt="" /></div>
 
-            <img class=" h-5 cursor-pointer" src="https://i.imgur.com/arC60SB.png" alt=""/>
-			<button
-			
-			 >Or sign-in with google</button>
-								</div>
-				<p class="mt-8"> Dont have an account? <NavLink class="cursor-pointer text-sm text-red-500" to='/signup'> Join today</NavLink></p>
+
+				<p class="mt-8"> Dont have an account? <NavLink class="cursor-pointer text-sm text-green-400" to='/signup'> Join today</NavLink></p>
 			</div>
 		</div>
 	</div>
