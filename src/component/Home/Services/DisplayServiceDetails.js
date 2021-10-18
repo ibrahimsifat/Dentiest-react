@@ -14,7 +14,7 @@ const {title,price,description,img}=props.service;
             <div class="w-full md:w-1/2 px-10">
                 <div class="mb-10">
                     <h1 class="font-bold uppercase text-2xl mb-5">{title}</h1>
-                    <p class="text-sm">{description} <a href="#g" class="opacity-50 text-gray-900 hover:opacity-100 inline-block text-xs leading-none border-b border-gray-900">MORE <i class="mdi mdi-arrow-right"></i></a></p>
+                    <p class="text-sm text-gray-600">{description} </p>
                 </div>
                 <div>
                     <div class="inline-block align-bottom mr-5">
@@ -23,7 +23,8 @@ const {title,price,description,img}=props.service;
                         <span class="text-2xl leading-none align-baseline">.99</span>
                     </div>
                     <div class="inline-block align-bottom">
-                        <button class="bg-yellow-300 opacity-75 hover:opacity-100 text-yellow-900 hover:text-gray-900 rounded-full px-10 py-2 font-semibold"><i class="mdi mdi-cart -ml-2 mr-2"></i> BUY NOW</button>
+                     
+                        <button class="p-2 pl-5 pr-5 transition-colors duration-500 transform bg-green-400 hover:bg-green-600 text-gray-100 text-lg rounded-xl focus:border-4 border-green-400">Get Apartment</button>
                     </div>
                 </div>
             </div>

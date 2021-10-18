@@ -1,7 +1,7 @@
 import React from 'react';
 const DisplayServices = (props) => {
   const {img,title,description,id}=props.service
-        console.log(props);
+        
         const {handleServicesBtn}=props
     return (
 
@@ -13,7 +13,7 @@ const DisplayServices = (props) => {
           <p class="leading-relaxed text-base">{description.slice(0,100)}</p>
           <button 
           onClick={()=>handleServicesBtn(id)}
-          class=" mt-5 p-1 px-3 bg-transparent border-2 border-green-400 text-green-400 text-lg rounded-lg transition-colors duration-500 transform hover:bg-green-400 hover:text-white focus:border-4 focus:border-green-300">Get Apartment</button>
+          class=" mt-5 p-1 px-3 bg-transparent border-2 border-green-400 text-green-400 text-lg rounded-lg transition-colors duration-500 transform hover:bg-green-400 hover:text-white focus:border-4 focus:border-green-300">See Details</button>
     
         </div>
  

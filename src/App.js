@@ -7,9 +7,16 @@ import Login from './component/Login/Login';
 import SignUp from "../src/component/SignUp/SignUp";
 import ServiceDetails from './component/Home/Services/ServiceDetails';
 import DisplayServiceDetails from './component/Home/Services/DisplayServiceDetails';
+import AllProduct from './component/AllProducts/AllProducts';
+
+import Footer from '../src/component/Shared/Footer'
+import AllProductsDetails from './component/AllProducts/AllProductsDetails';
+import AuthProvider from './component/context/AuthProvider';
+import PrivateRoute from './component/PrivateRoute/PrivateRoute';
 function App() {
   return (
-   
+ <AuthProvider>
+     
 <BrowserRouter>
 <Navigation></Navigation>
 <Switch>
@@ -28,18 +35,29 @@ function App() {
   <Route path='/signup'>
     <SignUp></SignUp>
   </Route>
-  <Route path='/servicedetails/:serviceId'>
+
+  <PrivateRoute path='/servicedetails/:serviceId'>
     <ServiceDetails></ServiceDetails>
-  </Route>
+  </PrivateRoute>
+
+  <PrivateRoute path='/allproductDetails/:productId'>
+    <AllProductsDetails></AllProductsDetails>
+  </PrivateRoute>
+  
   <Route path='/servicedetail'>
     <ServiceDetails></ServiceDetails>
   </Route>
   <Route path='/servicedetalil'>
     <DisplayServiceDetails></DisplayServiceDetails>
   </Route>
+  <Route path='/products'>
+    <AllProduct></AllProduct>
+  </Route>
 </Switch>
+<Footer></Footer>
 </BrowserRouter>
 
+ </AuthProvider>
 
 
 

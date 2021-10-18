@@ -1,0 +1,72 @@
+[{
+        "id": 11,
+        "title": "Sensodyne",
+        "img": "https://i.ibb.co/vZm11Nm/sensotine.jpg",
+        "description": "With twice daily brushing, Sensodyne Multi Care + Whitening formula works 24/7 to give you tooth sensitivity relief. It builds soothing protection around the nerve, deep inside the tooth so you dont worry when you eat or drink. Clinically proven sensitivity relief.Sensitivity relief Lasting sensitivity protection With Fluoride for cavity protection Helps remove plaque Helps maintain healthy gums Helps remove stains, Helps Restore teeth totheir natural whiteness* Its minty taste keeps mouth feeling clean and fresh",
+        "price": 9.67
+    },
+    {
+        "id": 12,
+        "title": "Sensodyne Toothbrush",
+        "img": "https://i.ibb.co/fkxqqfT/toothbrush.jpg",
+        "description": "Brand :Sensodyne Ensodyne Complete Protection Toothbrush Provides Enamel Cleaning, Gum Cleaning And Plaque Removal Type :Toothbrush Sensodyne Complete Protection Toothbrush provides enamel cleaning, gum cleaning and plaque removal.",
+        "price": 34.4
+    },
+    {
+        "id": 13,
+        "title": "Hand Sanitizer",
+        "img": "https://i.ibb.co/SmvQLmf/hand-sanitiser.jpg",
+        "description": "Trusted germ kill formula gives you 99.9 percent germ protectionEffectively cleanses hands of dirt, impurities and harmful germs, promoting hygiene Helps you to clean your hands before or after meals On-the-go protection without soap and water Non-stick formula ensures easy application",
+        "price": 26.3
+    },
+    {
+        "id": 14,
+        "title": "Gracey Curettes",
+        "img": "https://i.ibb.co/GWLWQvw/gracey-curettes.jpg",
+        "description": "Gracey Curettes Set (7 Pcs) in Stainless Steel Cassette.Made In Stainless Steel.Same Instruments as in the Picture.Made by Laja Imports.Buy the Best From Laja Imports.Imported from USA.It Is a Set of 7 Periodontal Instruments That Are Used by the Periodontologists and Dental Hygienitst.Sterilization Cassette",
+        "price": 13.43
+    },
+    {
+        "id": 15,
+        "title": "Dental Exam Kit",
+        "img": "https://i.ibb.co/1ms9KBM/disposable-dental-kit.jpg",
+        "description": "5-piece professional tool set includes 1 x extra-large dental mirror, 1 x dental tweezer, 1 x double-ended sickle scalar, 1 x tartar scraper and 1 x dual tool probe and scalar Hospital grade medical device: our reusable, fully autoclavable dental hygiene instrument set is built from premium German steel to the highest quality standards; ISO 13485, ISO 9001 and CE certified Large scale, angled dental mirror is ideal for at-home use to view cavities, residual food, plaque and tartar from every angle;",
+        "price": 23.24
+    },
+    {
+        "id": 16,
+        "title": " Medical Stool",
+        "img": "https://i.ibb.co/tXt6nN6/medical-stool.jpg",
+        "description": " About this item.Ergonomic design Emulates the natural Shape of the spine to increase comfort and productivity. Adjustable Seat Height with a 6\" vertical Height range. Available with Back Cushion (B245) or without Back Cushion (B240). Imported from USA.",
+        "price": 32.23
+    },
+    {
+        "id": 17,
+        "title": "Cuticle scissors",
+        "img": "https://i.ibb.co/GPkf5qH/scissors.jpg",
+        "description": "Especially for the cuticles: these scissors are specialised to cleanly and easily cut the skin around the nail.Cleanly cut cuticle: the remos cuticle scissors cut away all the protruding skin around the nail in a simple and precise way. To your complete satisfaction: the blades of the remos scissors have been perfectly sharpened. This means your nails will always have a clean cut and you will always be satisfied. Precise cut: the neat and precisely sharpened blades of these cuticle scissors guarantee you an exact cut.",
+        "price": 12.76
+    },
+    {
+        "id": 18,
+        "title": "Patient Monitort",
+        "img": "https://i.ibb.co/Lvmk6TG/mindray.jpg",
+        "description": "High resolution 8” color TFT display 6 Parameters : ECG,HR, Resp, NIBP, SpO2, TEMP,Light weight, compact and portable Built-in rechargeable lithium battery Unique human voice alarm Rich screen layouts: Standard, Big font, Trend table, NIBP trend, ECG full lead, OxyCRG, IoC Layout Powerful storage: Maximum 720 Hour graphic and tabular trends of all parameters, up to 10000 NIBP review ,200alarm review ,2Hours of all waveforms System software can be upgraded through network",
+        "price": 33.5
+    },
+    {
+        "id": 19,
+        "title": "Instrument table",
+        "img": "https://i.ibb.co/3WmX1BW/instrument-table.jpg",
+        "description": "Elements of tables E-02 series made of top made of stainless steel 0H18N9, the edges top deepened or with raised edges, manually adjustable height in range: 850-1300 mm base made of powder-varnished steel, fitted with 75 mm casters made entirely of stainless steel 0H18N9 750x500x850-1300 mm [L x S x H] Top dimensions: 750×500 [L x S]",
+        "price": 75.54
+    },
+
+    {
+        "id": 20,
+        "title": "Optic Toothbrush",
+        "img": "https://i.ibb.co/tDwdBGL/clinepro.jpg",
+        "description": "About this item.Whitening toothbrush with spiral polishing bristles.Advanced multi-action bristle design vs. an ordinary flat trim toothbrush).Innovative cheek and tongue cleaner design.Removes bacteria from teeth, tongue, cheeks, and gums.Comfortable ergonomic handle for better maneuvering.",
+        "price": 11.34
+    }
+]

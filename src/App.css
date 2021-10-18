@@ -10,3 +10,7 @@
     background: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 2550, 1)), url(../src/img/header-baner.jpg);
     background-repeat: no-repeat;
 }
+
+.zoom-image:hover {
+    transform: scale(1.1);
+}
