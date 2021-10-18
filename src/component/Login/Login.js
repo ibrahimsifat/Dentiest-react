@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { NavLink,useLocation,useHistory } from 'react-router-dom';
 import Img from "../../img/login.jpg";
 import useAuth from '../../Hook/useAuth';
@@ -6,7 +6,6 @@ import Googleicon from '../../img/google.png'
 import Githubicon from '../../img/github.png'
 
 const Login = () => {
-
 	const {signInUsingGoolge,
 		signInUsingGithub,
 		user,
@@ -42,6 +41,19 @@ const githubHandeLogin=()=>{
         setError(error.code)
     })
 }
+const HandeLogin=()=>{
+	login()
+	.then((userCredential) => {
+		// Signed in 
+		const user = userCredential.user;
+		history.push(redirect_rui)
+		setError('')
+	  })
+	  .catch(error=>{
+		  setError(error.code)
+	  })
+	
+}
 
     return (
         <div>
@@ -67,8 +79,8 @@ const githubHandeLogin=()=>{
 						<input onBlur={handelUserPassword} class="px-4 w-full border-2 py-2 rounded-md text-sm outline-none" type="password" placeholder="********"/>
         </div>
 						
-		<button type='submit' onClick={login}
-		class="mt-4 mb-3 w-full bg-green-500 hover:bg-green-400 text-white py-2 rounded-md transition duration-100">{user?'Already Login':'Login now'}</button>
+		<button type='submit' onClick={HandeLogin}
+		class="mt-4 mb-3 w-full bg-green-500 hover:bg-green-400 text-white py-2 rounded-md transition duration-100">Login now</button>
 							
 				</from>
 				<p className=' text-xl text-green-400 text-center'>-- or --</p>

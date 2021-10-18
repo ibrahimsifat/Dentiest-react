@@ -14,7 +14,7 @@ const DisplayAllProducts = (props) => {
     return (
      
       
-           <div class="w-72 mx-auto my-8">  
+           <div class="w-72 mx-auto my-8 ">  
             <div class="shadow hover:shadow-lg transition duration-300 ease-in-out xl:mb-0 lg:mb-0 md:mb-0 mb-6 cursor-pointer group">
                 <div class="overflow-hidden relative">
                

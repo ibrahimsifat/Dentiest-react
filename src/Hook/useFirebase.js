@@ -48,14 +48,8 @@ const signInUsingGithub =()=>{
 
 
  const createNewUser=()=>{
-    createUserWithEmailAndPassword(auth,email,password)
-    .then(result=>{
-        console.log(result.user);
-        setError('')
-    })
-    .catch(error=>{
-        setError(error.code)
-    })
+  return createUserWithEmailAndPassword(auth,email,password)
+
  }
 
 // const setNewUserName=()=>{
@@ -72,16 +66,8 @@ const signInUsingGithub =()=>{
 
 
 const login=()=>{
-  signInWithEmailAndPassword(auth, email, password)
-  .then((userCredential) => {
-    setError('')
-    const user = userCredential.user;
-    console.log(user);
-  })
-  .catch((error) => {
-    setError(error.code);
-  
-  })
+return signInWithEmailAndPassword(auth, email, password)
+
 }
 
 
@@ -110,7 +96,8 @@ const logOut=()=>{
         createNewUser,
         handelUserName,
         userName,
-        login
+        login,
+        setError
     }
 };
 

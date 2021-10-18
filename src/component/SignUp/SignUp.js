@@ -1,18 +1,36 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink,useHistory,useLocation } from 'react-router-dom';
 import useAuth from '../../Hook/useAuth';
 import SignImg from '../../img/signup.jpg'
 const SignUp = () => {
 const {
-    user,
+   
     error,
-  
+    setError,
     handelUserPassword,
     handleUserEmail,
     createNewUser,
     handelUserName,
     }=useAuth()
  
+    let history=useHistory()
+    let location=useLocation()
+    const redirect_rui=location.state?.from || '/'
+
+// Redicreting of signup 
+
+    const handleNewUser=()=>{
+        createNewUser()
+        .then(result2=>{
+            setError('')
+           history.push(redirect_rui)
+        })
+        .catch(error=>{
+            setError(error.code)
+        })
+    }
+
+
     return (
         <div className='w-9/12 mx-auto' > 
             
@@ -61,16 +79,11 @@ const {
                     </div>
                     <div class="flex -mx-3">
                         <div class="w-full px-3 mb-5">
-                            {
-                                user.email ?
-                                <button
-                                disabled 
-                            class=" block w-full max-w-xs mx-auto bg-red-400 hover:bg-red-500 focus:bg-green-500 text-white duration-500 rounded-lg px-3 py-3 font-semibold"> You Registered</button>
-                            :
+                            
                             <button type='submit'
-                          onClick={createNewUser}
+                          onClick={handleNewUser}
                             class="block w-full max-w-xs mx-auto bg-green-400 hover:bg-green-500 focus:bg-green-500 text-white duration-500 rounded-lg px-3 py-3 font-semibold">REGISTER NOW</button>
-                            }
+                            
                         </div>
                     </div>
                     <p className='pt-2'>Already Registered?
