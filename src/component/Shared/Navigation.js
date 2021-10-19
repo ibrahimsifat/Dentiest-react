@@ -38,7 +38,7 @@ const Navigation = () => {
                     user.email && <p className='text-green-400'><span className="font-bold text-green-500"> Hello </span>{user.displayName}</p>
                   }
           
-                {user.photoURL?<img class="  w-12 h-12 mr-2 rounded-full" src={user.photoURL} alt="" />
+                {user.photoURL?<img className="  w-12 h-12 mr-2 rounded-full" src={user.photoURL} alt="" />
                 :
                 <a className="flex items-center  hover:text-green-400 " href="/">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6  hover:text-green-500 " fill="none" viewBox="0 0 24 24" stroke="currentColor">

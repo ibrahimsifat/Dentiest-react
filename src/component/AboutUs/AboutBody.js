@@ -11,8 +11,8 @@ const AboutBody = () => {
     return (
         <div className='container mx-auto my-16'>
             <div className='mb-14'>
-            <h1 class="ml-5 md:ml-0 text-2xl md:text-5xl font-semibold mb-2 text-gray-900">Meet Our Doctors</h1>
-              <div class="ml-5 md:ml-0 h-1 md:w-72 w-28 bg-green-400 rounded"></div>
+            <h1 className="ml-5 md:ml-0 text-2xl md:text-5xl font-semibold mb-2 text-gray-900">Meet Our Doctors</h1>
+              <div className="ml-5 md:ml-0 h-1 md:w-72 w-28 bg-green-400 rounded"></div>
             </div>
           <div >
 
@@ -24,9 +24,9 @@ const AboutBody = () => {
 
 </div>
 
-<form class="mt-32 -mb-16 flex w-8/12 mx-auto">
-    	<input class=" w-full focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent rounded-l-lg p-4 border-t mr-0 border-b border-l text-gray-800 border-gray-200 bg-white" placeholder="your@mail.com"/>
-		<button class="px-8 rounded-r-lg bg-green-400  text-gray-100 font-bold p-4 uppercase border-green-500 hover:bg-green-700 duration-500 border-t border-b border-r">Subscribe</button>
+<form className="mt-32 -mb-16 flex w-8/12 mx-auto">
+    	<input className=" w-full focus:outline-none focus:ring-2 p-2 focus:ring-green-500 focus:border-transparent rounded-l-lg md:p-4 border-t mr-0 border-b border-l text-gray-800 border-gray-200 bg-white" placeholder="your@mail.com"/>
+		<button className="px-8 rounded-r-lg bg-green-400  text-gray-100 font-bold md:p-4 p-2 uppercase border-green-500 hover:bg-green-700 duration-500 border-t border-b border-r">Subscribe</button>
 	</form>
 </div>
         </div>
@@ -38,13 +38,13 @@ const Expart=(props)=>{
        <div>
 
 <div>
-<div class="w-64 bg-white rounded-xl overflow-hidden  hover:shadow-xl hover:scale-102 duration-500 transform transition cursor-pointer mx-auto">
+<div className="w-64 bg-white rounded-xl overflow-hidden  hover:shadow-xl hover:scale-102 duration-500 transform transition cursor-pointer mx-auto">
     <img src={img} alt=""/>
-    <div class="p-5">
-      <h1 class="text-2xl font-bold">{name}</h1>
-      <p class="mt-2 mb-6 text-lg font-semibold text-gray-600">{job}</p>
+    <div className="p-5">
+      <h1 className="text-2xl font-bold">{name}</h1>
+      <p className="mt-2 mb-6 text-lg font-semibold text-gray-600">{job}</p>
       
-      <NavLink to='/booking' class="  mt-5 p-1 px-3 bg-transparent border-2 border-green-400 text-green-400 text-lg rounded-lg transition-colors duration-500 transform hover:bg-green-400 hover:text-white focus:border-4 focus:border-green-300">Get Apartment</NavLink>
+      <NavLink to='/booking' className="  mt-5 p-1 px-3 bg-transparent border-2 border-green-400 text-green-400 text-lg rounded-lg transition-colors duration-500 transform hover:bg-green-400 hover:text-white focus:border-4 focus:border-green-300">Get Apartment</NavLink>
     </div>
   </div>
 </div>

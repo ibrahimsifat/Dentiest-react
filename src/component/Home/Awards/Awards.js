@@ -9,10 +9,10 @@ const Awards = () => {
         <div className='container  mx-auto'>
             <div>
             
-            <div class="mb-6 lg:mb-0">
-              <h1 class="ml-5 md:ml-0 text-2xl md:text-5xl font-semibold mb-2 text-gray-900">AWARDS & ASSOCIATIONS
+            <div className="mb-6 lg:mb-0">
+              <h1 className="ml-5 md:ml-0 text-2xl md:text-4xl font-semibold mb-2 text-gray-900">AWARDS & ASSOCIATIONS
 </h1>
-              <div class="ml-5 md:ml-0 h-1 md:w-96 w-52 bg-green-400 rounded"></div>
+              <div className="ml-5 md:ml-0 h-1 md:w-96 w-52 bg-green-400 rounded"></div>
             </div>
             
           

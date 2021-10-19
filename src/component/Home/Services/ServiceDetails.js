@@ -12,7 +12,7 @@ const itemId=parseInt(serviceId)
 
 
     return (
-        <div>
+        <div className='my-16'>
          {
          mached.map(service=><DisplayServiceDetails
          key={service.id}
