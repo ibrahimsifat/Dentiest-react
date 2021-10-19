@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# This is Dentist Website 
 
-This is Dentist Website  [Live Site Link](https://dentiest-64126.web.app/).
+ [Live Site Link](https://dentiest-64126.web.app/).
 
 ## features
 

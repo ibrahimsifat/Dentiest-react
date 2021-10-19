@@ -1,40 +1,54 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 
-
+import DentistImg from '../../img/dant/dent1.jpg'
+import DentistImg2 from '../../img/dant/dent2.jpg'
+import DentistImg3 from '../../img/dant/dent3.jpg'
+import DentistImg4  from '../../img/dant/dent4.jpg'
 
 const AboutBody = () => {
     return (
-        <div>
-          <div class=" flex items-center justify-around ">
-<Expart></Expart>
-<Expart></Expart>
+        <div className='container mx-auto my-16'>
+            <div className='mb-14'>
+            <h1 class="ml-5 md:ml-0 text-2xl md:text-5xl font-semibold mb-2 text-gray-900">Meet Our Doctors</h1>
+              <div class="ml-5 md:ml-0 h-1 md:w-72 w-28 bg-green-400 rounded"></div>
+            </div>
+          <div >
+
+<div className=' grid md:grid-cols-2 lg:grid-cols-4  lg:gap-10 md:gap-10 grid-col gap-8 md:mx-10 mx-auto'>
+<Expart img={DentistImg} name={'Mr.Ranga'} job={'RadioGraphis Expert'}></Expart>
+<Expart img={DentistImg2} job={'Veneer Expert'} name={'Sara Jackson'}></Expart>
+<Expart img={DentistImg3} job={'MouthGrards Expert'} name={'Diana Wagner'}></Expart>
+<Expart job={'Cleaning Expart' } img={DentistImg4} name={'Doris Jordan '}></Expart>
+
+</div>
+
+<form class="mt-32 -mb-16 flex w-8/12 mx-auto">
+    	<input class=" w-full focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent rounded-l-lg p-4 border-t mr-0 border-b border-l text-gray-800 border-gray-200 bg-white" placeholder="your@mail.com"/>
+		<button class="px-8 rounded-r-lg bg-green-400  text-gray-100 font-bold p-4 uppercase border-green-500 hover:bg-green-700 duration-500 border-t border-b border-r">Subscribe</button>
+	</form>
 </div>
         </div>
     );
 };
-const Expart=()=>{
+const Expart=(props)=>{
+    const {img,name,job}=props
     return(
-        <div>
-            <div class="user-card relative w-96 mb-32 h-auto bg-white rounded-md pt-24 pb-8 px-4 hover:shadow- transition flex flex-col items-center">
-        <div class="absolute rounded-full bg-gray-100 w-28 h-28 p-2 z-10 -top-8 shadow-lg hover:shadow-xl transition">
-            <div class="rounded-full bg-black w-full h-full overflow-auto">
-                <img src="https://rairaksa.github.io/assets/img/rai.jpg" alt="" />
-            </div>
-        </div>
-        <label class="font-bold text-gray-800 text-lg">
-           Ibrahim Sifat
-        </label>
-        <p class="text-center text-gray-800 mt-2 leading-relaxed">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-        </p>
-        <ul class="flex flex-row gap-2 mt-4">
-     <li>{'FaceBook'}</li>
-     <li>{'faGithub'}</li>
-     <li>{'element'}</li>
-        </ul>
+       <div>
+
+<div>
+<div class="w-64 bg-white rounded-xl overflow-hidden  hover:shadow-xl hover:scale-102 duration-500 transform transition cursor-pointer mx-auto">
+    <img src={img} alt=""/>
+    <div class="p-5">
+      <h1 class="text-2xl font-bold">{name}</h1>
+      <p class="mt-2 mb-6 text-lg font-semibold text-gray-600">{job}</p>
+      
+      <NavLink to='/booking' class="  mt-5 p-1 px-3 bg-transparent border-2 border-green-400 text-green-400 text-lg rounded-lg transition-colors duration-500 transform hover:bg-green-400 hover:text-white focus:border-4 focus:border-green-300">Get Apartment</NavLink>
     </div>
-        </div>
+  </div>
+</div>
+       </div>
     )
 }
 

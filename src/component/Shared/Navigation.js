@@ -21,6 +21,7 @@ const Navigation = () => {
    <li><NavLink className=" hover:text-green-400 " to="/">Home</NavLink></li>
     <li><NavLink className=" hover:text-green-400 " to="/aboutus">About us</NavLink></li>
       <li><NavLink className=" hover:text-green-400 " to="/products">Products</NavLink></li>
+      <li><NavLink className=" hover:text-green-400 " to="/booking">Book Appointment</NavLink></li>
       <li>
        {
          user.email? <button onClick={logOut} className=" hover:text-green-400 " >LogOut</button>

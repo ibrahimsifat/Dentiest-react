@@ -14,6 +14,9 @@ import AllProductsDetails from './component/AllProducts/AllProductsDetails';
 import AuthProvider from './component/context/AuthProvider';
 import PrivateRoute from './component/PrivateRoute/PrivateRoute';
 import NotFound from './component/NotFound/NotFound';
+import BookAppointment from './component/BookAppointment/BookAppointment';
+import Payment from './component/Payment/Payment';
+import Congratulations from './component/Congratulations/Congratulations';
 function App() {
   return (
  <AuthProvider>
@@ -43,6 +46,17 @@ function App() {
 
   <PrivateRoute path='/allproductDetails/:productId'>
     <AllProductsDetails></AllProductsDetails>
+  </PrivateRoute>
+
+  <PrivateRoute path='/booking'>
+    <BookAppointment></BookAppointment>
+  </PrivateRoute>
+
+  <PrivateRoute path='/payment'>
+    <Payment></Payment>
+  </PrivateRoute>
+  <PrivateRoute path='/Congratulations'>
+    <Congratulations></Congratulations>
   </PrivateRoute>
   
   <Route path='/servicedetail'>
