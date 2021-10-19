@@ -10,19 +10,19 @@ const Awards = () => {
             <div>
             
             <div class="mb-6 lg:mb-0">
-              <h1 class="ml-5 md:ml-0 text-2xl md:text-5xl font-bold mb-2 text-gray-900">AWARDS & ASSOCIATIONS
+              <h1 class="ml-5 md:ml-0 text-2xl md:text-5xl font-semibold mb-2 text-gray-900">AWARDS & ASSOCIATIONS
 </h1>
-              <div class="ml-5 md:ml-0 h-1 md:w-80 w-40 bg-green-400 rounded"></div>
+              <div class="ml-5 md:ml-0 h-1 md:w-96 w-52 bg-green-400 rounded"></div>
             </div>
             
           
             </div>
-<div className="lg:grid-cols-4 my-16 grid md:grid-cols-3">
+<div className=" lg:grid-cols-4 my-16 grid md:grid-cols-3">
 
-<img className='md:px-10 mx-auto w-72 my-8' src={Img1} alt="" />
-<img  className='md:px-10 mx-auto w-72 my-8' src={Img2} alt="" />
-<img  className='md:px-10 mx-auto w-72 my-8' src={Img3} alt="" />
-<img  className='md:px-10 mx-auto w-72 my-8' src={Img4} alt="" />
+<img className='duration-500  zoom-image md:px-10 mx-auto w-72 my-8' src={Img1} alt="" />
+<img  className='duration-500  zoom-image md:px-10 mx-auto w-72 my-8' src={Img2} alt="" />
+<img  className=' duration-500  zoom-image md:px-10 mx-auto w-72 my-8' src={Img3} alt="" />
+<img  className=' duration-500  zoom-image md:px-10 mx-auto w-72 my-8' src={Img4} alt="" />
 </div>
          
             

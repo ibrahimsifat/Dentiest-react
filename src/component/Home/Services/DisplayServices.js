@@ -5,7 +5,7 @@ const DisplayServices = (props) => {
         const {handleServicesBtn}=props
     return (
 
-        <div class="bg-card p-4 mx-2 rounded-xl w-80 card_hover">
+        <div class="bg-card p-4 mx-3 rounded-xl md:w-80 card_hover">
           
           <img onClick='' class="lg:h-60 xl:h-56 md:h-64 sm:h-72 xs:h-72 h-72  rounded w-full object-cover object-center mb-6" src={img} alt="" />
      

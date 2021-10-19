@@ -13,7 +13,7 @@ const Navigation = () => {
         <div className="flex flex-wrap place-items-center ">
         <section className=" mx-auto">
           <nav className="flex justify-between container w-screen">
-            <div className="px-5 xl:px-12 py-3 flex w-full items-center">
+            <div className="pt-4 xl:px-12 py-3 flex w-full items-center">
               <NavLink className="text-3xl font-bold font-heading" to="/">
                 <img className="h-9 inline" src={Logo} alt="logo" /> <span className='font-bold text-xl'>DENTIST</span>
               </NavLink>
