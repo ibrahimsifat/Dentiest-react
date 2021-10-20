@@ -55,13 +55,14 @@ import Logo from '../../img/logo.png'
                  
       </li>
                 
-                 <li className='mx-auto' >
+              <ul className='ml-auto'>
+              <li  >
                  {
                     user.email && <p className='text-green-400 '><span className="font-bold text-green-500"> Hello </span>{user.displayName}</p>
                   }
                  </li>
           
-               <li className="  mx-auto hover:text-green-400 ">{
+               <li className="md:ml-32 mx-auto hover:text-green-400 ">{
                 user.photoURL?
                 <img src={user.photoURL} className='mx-auto w-10 rounded-full' alt="" />
                 :
@@ -70,8 +71,10 @@ import Logo from '../../img/logo.png'
                }
                 </li>
               
+              </ul>
 
-                <NavLink to='cart' className=" flex mr-6 justify-center items-center" >
+             <li className>
+             <NavLink to='cart' className=" flex md:mr-6 justify-center items-center" >
               <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6  hover:text-blue-500 " fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
               </svg>
@@ -81,6 +84,7 @@ import Logo from '../../img/logo.png'
                 </span>
               </span>
             </NavLink>
+             </li>
            
               </ul>
           </div>
