@@ -4,8 +4,14 @@ import FooterLogo from '../../img/logo.png'
 const Footer = () => {
     return (
         <div className='mt-auto -block'>
-            
+              <div className='mb-3' >
+  <form className="mt-32  flex w-8/12 mx-auto">
+    	<input className=" w-full focus:outline-none focus:ring-2 p-2 focus:ring-green-500 focus:border-transparent rounded-l-lg md:p-4 border-t mr-0 border-b border-l text-gray-800 border-gray-200 bg-white" placeholder="your@mail.com"/>
+		<button className="px-8 rounded-r-lg bg-green-400  text-gray-100 font-bold md:p-4 p-2 uppercase border-green-500 hover:bg-green-700 duration-500 border-t border-b border-r">Subscribe</button>
+	</form>
+  </div>
 <footer className="relative text-white bg-gray-900 pt-8 pb-6">
+
   <div className="container mx-auto px-4">
     <div className="md:flex flex-wrap text-center justify-between lg:text-left">
     <div className=" flex items-center  w-16 h-16 mb-6 rounded-full  mt-8">

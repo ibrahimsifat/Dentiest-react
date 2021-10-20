@@ -1,4 +1,5 @@
 import React from 'react';
+import AboutBody from '../AboutUs/AboutBody';
 import ProductSection from '../ProductSection/ProductSection';
 import CeoPart from '../Shared/CeoPart';
 import Awards from './Awards/Awards';
@@ -14,6 +15,7 @@ const Home = () => {
           <Welcome></Welcome>
           <UseServises></UseServises>
           <CeoPart></CeoPart>
+          <AboutBody></AboutBody>
  <ProductSection></ProductSection>
  <Awards></Awards>
         </div>

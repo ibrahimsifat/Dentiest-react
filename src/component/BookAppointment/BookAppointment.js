@@ -6,7 +6,7 @@ const BookAppointment = () => {
         <div>
             <div>
   
-     <h1 className='text-center py-8 text-'>Book an Appointment</h1>
+     <h1 className='text-center py-8 text-3xl text-green-400 font-semibold'>Book an Appointment</h1>
 
       <div className="bg-white md:flex flex-col  md:ml-44 sm:ml-12 p-4 px-4 md:p-8 mb-6">
           <div className="text-gray-600 text-left mb-10">
