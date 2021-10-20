@@ -17,6 +17,7 @@ import NotFound from './component/NotFound/NotFound';
 import BookAppointment from './component/BookAppointment/BookAppointment';
 import Payment from './component/Payment/Payment';
 import Congratulations from './component/Congratulations/Congratulations';
+import Cart from './component/Cart/Cart';
 function App() {
   return (
  <AuthProvider>
@@ -67,6 +68,9 @@ function App() {
   </Route>
   <Route path='/products'>
     <AllProduct></AllProduct>
+  </Route>
+  <Route path='/cart'>
+    <Cart></Cart>
   </Route>
   <Route path='*'>
     <NotFound></NotFound>
