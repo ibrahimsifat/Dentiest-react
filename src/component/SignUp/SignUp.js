@@ -51,7 +51,7 @@ const {
                 <div>
                     <div className="flex -mx-3">
                         <div className="w-full px-1 mb-5">
-                            <label for="" className="text-xs font-semibold px-1">your name</label>
+                            <label htmlFor="" className="text-xs font-semibold px-1">your name</label>
                             <div className="flex">
                                 <div className="w-10 z-10 pl-1 text-center pointer-events-none flex items-center justify-center"><i className="mdi mdi-account-outline text-gray-400 text-lg"></i></div>
                                 <input required onBlur={handelUserName} type="text" className="w-full -ml-10 pl-3 pr-3 py-2 rounded-lg border-2 border-gray-200 outline-none focus:border-red-500" placeholder="John"/>
@@ -61,7 +61,7 @@ const {
                     </div>
                     <div className="flex -mx-3">
                         <div className="w-full px-1 mb-5">
-                            <label for="" className="text-xs font-semibold px-1">Email</label>
+                            <label htmlFor="" className="text-xs font-semibold px-1">Email</label>
                             <div className="flex">
                                 <div className="w-10 z-10 pl-1 text-center pointer-events-none flex items-center justify-center"><i className="mdi mdi-email-outline text-gray-400 text-lg"></i></div>
                                 <input required onBlur={handleUserEmail} type="email" className="w-full -ml-10 pl-3 pr-3 py-2 rounded-lg border-2 border-gray-200 outline-none focus:border-red-500" placeholder="youreail@example.com"/>
@@ -70,7 +70,7 @@ const {
                     </div>
                     <div className="flex -mx-3">
                         <div className="w-full px-1 mb-12">
-                            <label for="" className="text-xs font-semibold px-1">Password</label>
+                            <label htmlFor="" className="text-xs font-semibold px-1">Password</label>
                             <div className="flex">
                                 <div className="w-10 z-10 pl-1 text-center pointer-events-none flex items-center justify-center"><i className="mdi mdi-lock-outline text-gray-400 text-lg"></i></div>
                                 <input required onBlur={handelUserPassword}  type="password" className="w-full -ml-10 pl-3 pr-1 py-2 rounded-lg border-2 border-gray-200 outline-none focus:border-red-500" placeholder="************"/>

@@ -54,22 +54,22 @@ import Logo from '../../img/logo.png'
      
                  
       </li>
-                 <div className="md:flex ml-auto ">
-                 <li className='' >
+                
+                 <li className='mx-auto' >
                  {
                     user.email && <p className='text-green-400 '><span className="font-bold text-green-500"> Hello </span>{user.displayName}</p>
                   }
                  </li>
           
-               <li className=" block mx-auto hover:text-green-400 ">{
+               <li className="  mx-auto hover:text-green-400 ">{
                 user.photoURL?
                 <img src={user.photoURL} className='mx-auto w-10 rounded-full' alt="" />
                 :
-                <img src={profileIcon} className='mx-auto w-8' alt="" />
+                <img src={profileIcon} className='mx-auto w-8 mb-4' alt="" />
               
                }
                 </li>
-                 </div>
+              
 
                 <NavLink to='cart' className=" flex mr-6 justify-center items-center" >
               <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6  hover:text-blue-500 " fill="none" viewBox="0 0 24 24" stroke="currentColor">

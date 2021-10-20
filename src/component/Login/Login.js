@@ -69,11 +69,11 @@ const HandeLogin=()=>{
 						<h1 className="text-2xl font-bold">Login to your account </h1>
 					</div>
 						<div className="my-3">
-							<label className="block text-md mb-2" for="email">Email</label>
+							<label className="block text-md mb-2" htmlFor="email">Email</label>
 							<input onBlur={handleUserEmail} className="px-4 w-full border-2 py-2 rounded-md text-sm outline-none" type="email" placeholder="email"/>
         </div>
 					<div className="mt-5">
-						<label className="block text-md mb-2" for="password">Password</label>
+						<label className="block text-md mb-2" htmlFor="password">Password</label>
 						<input onBlur={handelUserPassword} className="px-4 w-full border-2 py-2 rounded-md text-sm outline-none" type="password" placeholder="********"/>
         </div>
 						

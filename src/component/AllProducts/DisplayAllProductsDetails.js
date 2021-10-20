@@ -1,7 +1,10 @@
 import React from 'react';
 
+
 const DisplayAllProductsDetails = (props) => {
     const {title,img,description,price}=props.item;
+   
+  
     return (
         <div className='my-16 mx-10'>
             <div className="lg:w-4/5 mx-auto flex flex-wrap">
@@ -68,7 +71,9 @@ const DisplayAllProductsDetails = (props) => {
         </div>
         <div className="md:flex">
           <span className="title-font font-medium text-2xl text-gray-900">${price}</span>
-          <button className="flex mt-4 md:mt-0 md:ml-auto text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded">Add to Cart</button>
+          <button
+          // onClick={()=>handlecartBtn(id)}
+          className="flex mt-4 md:mt-0 md:ml-auto text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded">Add to Cart</button>
           
         </div>
       </div>

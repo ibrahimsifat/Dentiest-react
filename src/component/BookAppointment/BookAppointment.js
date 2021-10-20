@@ -18,28 +18,28 @@ const BookAppointment = () => {
           <div className="lg:col-span-2">
             <from className="grid gap-4 gap-y-2 text-sm grid-cols-1 md:grid-cols-5">
               <div className="md:col-span-5">
-                <label for="full_name">Full Name</label>
+                <label htmlFor="full_name">Full Name</label>
                 <input type="text" name="full_name" id="full_name" className="h-10 border mt-1 rounded px-4 w-full bg-gray-50" value="" required />
               </div>
 
               <div className="md:col-span-5">
-                <label for="email">Email Address</label>
+                <label htmlFor="email">Email Address</label>
                 <input type="text" name="email" id="email" className="h-10 border mt-1 rounded px-4 w-full bg-gray-50" value="" placeholder="email@domain.com"required />
               </div>
 
               <div className="md:col-span-3">
-                <label for="address">Address / Street</label>
+                <label htmlFor="address">Address / Street</label>
                 <input type="text" name="address" id="address" className="h-10 border mt-1 rounded px-4 w-full bg-gray-50" value="" placeholder="" required/>
               </div>
 
               <div className="md:col-span-2">
-                <label for="city">City</label>
+                <label htmlFor="city">City</label>
                 <input type="text" name="city" id="city" className="h-10 border mt-1 rounded px-4 w-full bg-gray-50" value="" placeholder="" required/>
               </div>
               <div className="md:col-span-5">
                 <div className="inline-flex items-center">
                   <input type="checkbox" name="billing_same" id="billing_same" className="form-checkbox" />
-                  <label for="billing_same" className="ml-2">My billing address is different than above.</label>
+                  <label htmlFor="billing_same" className="ml-2">My billing address is different than above.</label>
                 </div>
               </div>
 

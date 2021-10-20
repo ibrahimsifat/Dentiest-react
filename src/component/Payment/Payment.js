@@ -20,14 +20,14 @@ const Payment = () => {
         </div>
         <div className="mb-3 md:flex -mx-2">
             <div className="px-2">
-                <label for="type1" className="flex items-center cursor-pointer">
+                <label htmlFor="type1" className="flex items-center cursor-pointer">
                     <input type="radio" className="form-radio h-5 w-5 text-green-500" name="type" id="type1" checked />
                  
                     <img  className="h-8 ml-3" src="https://leadershipmemphis.org/wp-content/uploads/2020/08/780370.png" alt="" />
                 </label>
             </div>
             <div className="md:px-6 px-2 md:mt-0 mt-6">
-                <label for="type2" className="flex items-center cursor-pointer">
+                <label htmlFor="type2" className="flex items-center cursor-pointer">
                     <input type="radio" className="form-radio h-5 w-5 text-green-500" name="type" id="type2"/>
             <img  className="h-8 ml-3" src="https://www.sketchappsources.com/resources/source-image/PayPalCard.png" alt="" />
                 </label>

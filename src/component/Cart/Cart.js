@@ -1,85 +1,20 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-const cart = () => {
+
+const Cart = (props) => {
+
+console.log(props);
     return (
         <div>
          <div class="flex justify-center my-6">
   <div class="flex flex-col w-full p-8 text-gray-800 bg-white shadow-lg pin-r pin-y md:w-4/5 lg:w-4/5">
     <div class="flex-1">
-      <table class="w-full text-sm lg:text-base" cellspacing="0">
-        <thead>
-          <tr class="h-12 uppercase">
-            <th class="hidden md:table-cell"></th>
-            <th class="text-left">Product</th>
-            <th class="lg:text-right text-left pl-5 lg:pl-0">
-              <span class="lg:hidden" title="Quantity">Qtd</span>
-              <span class="hidden lg:inline">Quantity</span>
-            </th>
-            <th class="hidden text-right md:table-cell">Unit price</th>
-            <th class="text-right">Total price</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td class="hidden pb-4 md:table-cell">
-              <a href="#sdf">
-                <img src="https://limg.app/i/Calm-Cormorant-Catholic-Pinball-Blaster-yM4oub.jpeg" class="w-20 rounded" alt="Thumbnail"/>
-              </a>
-            </td>
-            <td>
-              <a href="#sffgfds">
-                <p class="mb-2 md:ml-4">Earphone</p>
-                <form action="" method="POST">
-                  <button type="submit" class="text-gray-700 md:ml-4">
-                    <small>(Remove item)</small>
-                  </button>
-                </form>
-              </a>
-            </td>
-            <td class="justify-center md:justify-end md:flex mt-6">
-              <div class="w-20 h-10">
-                <div class="relative flex flex-row w-full h-8">
-                <button
-      class="font-semibold  bg-gray-100 hover:bg-gray-200  h-full w-20 flex rounded-l focus:outline-none cursor-pointer"
-    >
-      <span class="m-auto">-</span>
-    </button>
-    <input
-      type="hidden"
-      class="md:p-2 p-1 text-xs md:text-base border-gray-400 focus:outline-none text-center"
-      readonly
-      name="custom-input-number"
-    />
-    <div
-      class="bg-white w-24 text-xs md:text-base flex items-center justify-center cursor-default"
-    >
-      <span>2</span>
-    </div>
+      
 
-    <button
-      class="font-semibold   bg-gray-100 hover:bg-gray-200  h-full w-20 flex rounded-r focus:outline-none cursor-pointer"
-    >
-      <span class="m-auto">+</span>
-    </button>
-                </div>
-              </div>
-            </td>
-            <td class="hidden text-right md:table-cell">
-              <span class="text-sm lg:text-base font-medium">
-                10.00€
-              </span>
-            </td>
-            <td class="text-right">
-              <span class="text-sm lg:text-base font-medium">
-                20.00€
-              </span>
-            </td>
-          </tr> 
-         
-          
-        </tbody>
-      </table>
+
+
+      
       <hr class="pb-6 mt-6"/>
       <div class="my-4 mt-6 -mx-2 lg:flex">
         <div class="lg:px-10 lg:w-1/2">
@@ -170,4 +105,4 @@ const cart = () => {
     );
 };
 
-export default cart;
+export default Cart;
